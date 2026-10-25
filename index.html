@@ -103,8 +103,9 @@
 <body>
   <div class="wrap">
     <header>
+      <div class="badge">❄️</div>
       <h1>Chill Drift — Privacy Policy</h1>
-      <p>Last updated: <strong>September 12, 2026</strong></p>
+      <p>Last updated: <strong>October 25, 2026</strong></p>
     </header>
 
     <div class="panel">
@@ -125,8 +126,10 @@
         <li>Sound, music, and haptics preferences</li>
       </ul>
       <p>
-        This data stays on your device. We do not operate a server that receives, stores,
-        or has access to it, and it is removed if you uninstall the app or clear its data.
+        Your game progress stays on your device. We do not operate a server that receives,
+        stores, or has access to it, and it is removed if you uninstall the app or clear its
+        data. (Crash reports are a separate matter and are described below — they never
+        include your game progress.)
       </p>
 
       <h2>Advertising</h2>
@@ -156,6 +159,40 @@
         <em>Settings → Privacy → Ads</em>, depending on your Android version).
       </p>
 
+      <h2>Crash and error reporting</h2>
+      <p>
+        To find and fix the bugs that make the game crash or misbehave, Chill Drift uses
+        <strong>Firebase Crashlytics</strong> (a Google service). It sends a report only
+        when the app hits an error — it does not monitor how you play, and it sends nothing
+        during normal play.
+      </p>
+      <p>A crash report contains:</p>
+      <ul>
+        <li>The error itself: its type, message, and the lines of code it came from</li>
+        <li>Device and app information (device model and manufacturer, Android version,
+          app version, CPU type, available memory and storage, screen orientation)</li>
+        <li>Whether the app was in the foreground, and how long it had been running</li>
+        <li>A randomly generated installation identifier, which lets us tell "one person
+          hit this 50 times" apart from "50 people hit this once"</li>
+      </ul>
+      <p>
+        It does <strong>not</strong> include your name, email address, or any account
+        details — the game has no accounts — and it does not include your game progress,
+        your snowflakes, or the advertising identifier described in the previous section.
+        The installation identifier is specific to Crashlytics, is not your advertising ID,
+        and is reset if you uninstall the app or clear its data.
+      </p>
+      <p>
+        Google processes this data on our behalf as a service provider. Crash reports are
+        retained for <strong>90 days</strong>, after which Google begins removing them from
+        its live and backup systems. We use them only to diagnose and fix problems in the
+        app, and we do not sell them or use them for advertising.
+      </p>
+      <ul>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy and security information</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+      </ul>
+
       <h2>Children's privacy</h2>
       <p>
         Chill Drift is a general-audience casual game and is not directed at children. We
@@ -168,10 +205,15 @@
 
       <h2>Data security</h2>
       <p>
-        Since gameplay data is stored only on your device and the app does not transmit it
-        to us, there is no developer-operated server or database holding your game data
-        to secure. Data handled by the advertising SDK is protected under Google's own
-        security practices.
+        Your gameplay data is stored only on your device and the app does not transmit it to
+        us, so there is no developer-operated server or database holding your game progress
+        to secure.
+      </p>
+      <p>
+        The crash reports described above are the one thing the app does send. They are
+        transmitted over an encrypted connection and held in our Firebase project, where
+        access is limited to the developer. Data handled by the advertising and crash
+        reporting SDKs is protected under Google's own security practices.
       </p>
 
       <h2>Your choices</h2>
@@ -185,6 +227,11 @@
           <td>Limit ad personalization</td>
           <td>Android device Settings → Ads (opt out of ads personalization / reset advertising ID)</td>
         </tr>
+        <tr>
+          <td>Reset the crash-report installation identifier</td>
+          <td>Clear the app's storage, or uninstall and reinstall. The app has no in-app
+            switch for crash reporting at present — contact us if you would like one</td>
+        </tr>
       </table>
 
       <h2>Changes to this policy</h2>
@@ -197,7 +244,7 @@
       <h2>Contact us</h2>
       <p>
         If you have questions about this policy or how the app works, contact us at
-        <a href="mailto:support.waghadestudio@gmail.com">support.waghadestudio@gmail.com</a>.
+        <a href="mailto:support.waghadeStudio@gmail.com">support.waghadeStudio@gmail.com</a>.
       </p>
 
       <p class="muted">Package: com.waghadestudio.chilldrift &nbsp;•&nbsp; Developer: Waghade Studio</p>
